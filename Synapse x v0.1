@@ -1,0 +1,1245 @@
+local SynapseX = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local Title = Instance.new("TextLabel")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+local Icon = Instance.new("ImageLabel")
+local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
+local Close = Instance.new("TextButton")
+local UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
+local Minimize = Instance.new("TextButton")
+local UIAspectRatioConstraint_4 = Instance.new("UIAspectRatioConstraint")
+local NumberBox = Instance.new("TextLabel")
+local UIAspectRatioConstraint_5 = Instance.new("UIAspectRatioConstraint")
+local CodeBox = Instance.new("TextBox")
+local UIAspectRatioConstraint_6 = Instance.new("UIAspectRatioConstraint")
+local SavedFile = Instance.new("Frame")
+local UIAspectRatioConstraint_7 = Instance.new("UIAspectRatioConstraint")
+local Execute = Instance.new("TextButton")
+local UIAspectRatioConstraint_8 = Instance.new("UIAspectRatioConstraint")
+local Clear = Instance.new("TextButton")
+local UIAspectRatioConstraint_9 = Instance.new("UIAspectRatioConstraint")
+local OpenFile = Instance.new("TextButton")
+local UIAspectRatioConstraint_10 = Instance.new("UIAspectRatioConstraint")
+local SaveFile = Instance.new("TextButton")
+local UIAspectRatioConstraint_11 = Instance.new("UIAspectRatioConstraint")
+local Options = Instance.new("TextButton")
+local UIAspectRatioConstraint_12 = Instance.new("UIAspectRatioConstraint")
+local Attach = Instance.new("TextButton")
+local UIAspectRatioConstraint_13 = Instance.new("UIAspectRatioConstraint")
+local ScriptHub = Instance.new("TextButton")
+local UIAspectRatioConstraint_14 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_15 = Instance.new("UIAspectRatioConstraint")
+local Options_2 = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local UIAspectRatioConstraint_16 = Instance.new("UIAspectRatioConstraint")
+local ImageLabel = Instance.new("ImageLabel")
+local UIAspectRatioConstraint_17 = Instance.new("UIAspectRatioConstraint")
+local TextButton = Instance.new("TextButton")
+local UIAspectRatioConstraint_18 = Instance.new("UIAspectRatioConstraint")
+local TextLabel_2 = Instance.new("TextLabel")
+local UIAspectRatioConstraint_19 = Instance.new("UIAspectRatioConstraint")
+local TextButton_2 = Instance.new("TextButton")
+local UIAspectRatioConstraint_20 = Instance.new("UIAspectRatioConstraint")
+local TextLabel_3 = Instance.new("TextLabel")
+local UIAspectRatioConstraint_21 = Instance.new("UIAspectRatioConstraint")
+local TextLabel_4 = Instance.new("TextLabel")
+local UIAspectRatioConstraint_22 = Instance.new("UIAspectRatioConstraint")
+local TextButton_3 = Instance.new("TextButton")
+local UIAspectRatioConstraint_23 = Instance.new("UIAspectRatioConstraint")
+local TextLabel_5 = Instance.new("TextLabel")
+local UIAspectRatioConstraint_24 = Instance.new("UIAspectRatioConstraint")
+local TextButton_4 = Instance.new("TextButton")
+local UIAspectRatioConstraint_25 = Instance.new("UIAspectRatioConstraint")
+local TextLabel_6 = Instance.new("TextLabel")
+local UIAspectRatioConstraint_26 = Instance.new("UIAspectRatioConstraint")
+local TextButton_5 = Instance.new("TextButton")
+local UIAspectRatioConstraint_27 = Instance.new("UIAspectRatioConstraint")
+local TextLabel_7 = Instance.new("TextLabel")
+local UIAspectRatioConstraint_28 = Instance.new("UIAspectRatioConstraint")
+local TextButton_6 = Instance.new("TextButton")
+local UIAspectRatioConstraint_29 = Instance.new("UIAspectRatioConstraint")
+local TextButton_7 = Instance.new("TextButton")
+local UIAspectRatioConstraint_30 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_31 = Instance.new("UIAspectRatioConstraint")
+local LoginFrame = Instance.new("Frame")
+local Title2 = Instance.new("TextLabel")
+local UIAspectRatioConstraint_32 = Instance.new("UIAspectRatioConstraint")
+local Icon2 = Instance.new("ImageLabel")
+local UIAspectRatioConstraint_33 = Instance.new("UIAspectRatioConstraint")
+local UserBox = Instance.new("TextBox")
+local UIAspectRatioConstraint_34 = Instance.new("UIAspectRatioConstraint")
+local PassBox = Instance.new("TextBox")
+local UIAspectRatioConstraint_35 = Instance.new("UIAspectRatioConstraint")
+local LABEL = Instance.new("TextLabel")
+local UIAspectRatioConstraint_36 = Instance.new("UIAspectRatioConstraint")
+local LABEL2 = Instance.new("TextLabel")
+local UIAspectRatioConstraint_37 = Instance.new("UIAspectRatioConstraint")
+local LoginButton = Instance.new("TextButton")
+local UIAspectRatioConstraint_38 = Instance.new("UIAspectRatioConstraint")
+local Lostpw = Instance.new("TextLabel")
+local UIAspectRatioConstraint_39 = Instance.new("UIAspectRatioConstraint")
+local REGISTER = Instance.new("TextLabel")
+local UIAspectRatioConstraint_40 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_41 = Instance.new("UIAspectRatioConstraint")
+local Close2 = Instance.new("TextButton")
+local Minimize2 = Instance.new("TextButton")
+local Error = Instance.new("Frame")
+local TextLabel_8 = Instance.new("TextLabel")
+local TextLabel_9 = Instance.new("TextLabel")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local TextLabel_10 = Instance.new("TextLabel")
+local TextButton_8 = Instance.new("TextButton")
+local TextButton_9 = Instance.new("TextButton")
+local Toggle = Instance.new("ImageButton")
+local UICorner = Instance.new("UICorner")
+local UIAspectRatioConstraint_42 = Instance.new("UIAspectRatioConstraint")
+
+--Properties:
+
+SynapseX.Name = "Synapse X"
+SynapseX.Parent = game.Workspace
+SynapseX.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+SynapseX.ResetOnSpawn = false
+
+Main.Name = "Main"
+Main.Parent = SynapseX
+Main.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Main.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Main.BorderSizePixel = 0
+Main.Position = UDim2.new(0.151691943, 0, 0.205761313, 0)
+Main.Size = UDim2.new(0.696616113, 0, 0.586419761, 0)
+Main.Visible = false
+
+Title.Name = "Title"
+Title.Parent = Main
+Title.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+Title.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Title.BorderSizePixel = 0
+Title.Size = UDim2.new(1, 0, 0.101754382, 0)
+Title.Font = Enum.Font.SourceSans
+Title.Text = "Synapse X - v2.1.9"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextSize = 15.000
+
+UIAspectRatioConstraint.Parent = Title
+UIAspectRatioConstraint.AspectRatio = 20.586
+
+Icon.Name = "Icon"
+Icon.Parent = Main
+Icon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Icon.BackgroundTransparency = 1.000
+Icon.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Icon.BorderSizePixel = 0
+Icon.Position = UDim2.new(0.0100502511, 0, 0.0105263162, 0)
+Icon.Size = UDim2.new(0.0418760478, 0, 0.0807017535, 0)
+Icon.Image = "rbxassetid://2530517466"
+
+UIAspectRatioConstraint_2.Parent = Icon
+UIAspectRatioConstraint_2.AspectRatio = 1.087
+
+Close.Name = "Close"
+Close.Parent = Main
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close.BackgroundTransparency = 1.000
+Close.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Close.BorderSizePixel = 0
+Close.Position = UDim2.new(0.953098834, 0, 0.0175438598, 0)
+Close.Size = UDim2.new(0.0469011739, 0, 0.0631578937, 0)
+Close.Font = Enum.Font.SourceSans
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close.TextScaled = true
+Close.TextSize = 14.000
+Close.TextWrapped = true
+
+UIAspectRatioConstraint_3.Parent = Close
+UIAspectRatioConstraint_3.AspectRatio = 1.556
+
+Minimize.Name = "Minimize"
+Minimize.Parent = Main
+Minimize.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Minimize.BackgroundTransparency = 1.000
+Minimize.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Minimize.BorderSizePixel = 0
+Minimize.Position = UDim2.new(0.909547746, 0, 0.0105263162, 0)
+Minimize.Size = UDim2.new(0.0435510874, 0, 0.0912280679, 0)
+Minimize.Font = Enum.Font.SourceSans
+Minimize.Text = "-"
+Minimize.TextColor3 = Color3.fromRGB(255, 255, 255)
+Minimize.TextScaled = true
+Minimize.TextSize = 14.000
+Minimize.TextWrapped = true
+
+UIAspectRatioConstraint_4.Parent = Minimize
+
+NumberBox.Name = "NumberBox"
+NumberBox.Parent = Main
+NumberBox.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+NumberBox.BorderColor3 = Color3.fromRGB(0, 0, 0)
+NumberBox.BorderSizePixel = 0
+NumberBox.Position = UDim2.new(0.0201005023, 0, 0.136842102, 0)
+NumberBox.Size = UDim2.new(0.0502512567, 0, 0.698245585, 0)
+NumberBox.Font = Enum.Font.SourceSans
+NumberBox.Text = "1"
+NumberBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+NumberBox.TextSize = 14.000
+NumberBox.TextYAlignment = Enum.TextYAlignment.Top
+
+UIAspectRatioConstraint_5.Parent = NumberBox
+UIAspectRatioConstraint_5.AspectRatio = 0.151
+
+CodeBox.Name = "CodeBox"
+CodeBox.Parent = Main
+CodeBox.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+CodeBox.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CodeBox.BorderSizePixel = 0
+CodeBox.ClipsDescendants = true
+CodeBox.Position = UDim2.new(0.0703517571, 0, 0.136842102, 0)
+CodeBox.Size = UDim2.new(0.740368485, 0, 0.698245585, 0)
+CodeBox.Font = Enum.Font.SourceSans
+CodeBox.PlaceholderColor3 = Color3.fromRGB(106, 106, 106)
+CodeBox.Text = ""
+CodeBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+CodeBox.TextSize = 14.000
+CodeBox.TextXAlignment = Enum.TextXAlignment.Left
+CodeBox.TextYAlignment = Enum.TextYAlignment.Top
+
+UIAspectRatioConstraint_6.Parent = CodeBox
+UIAspectRatioConstraint_6.AspectRatio = 2.221
+
+SavedFile.Name = "SavedFile"
+SavedFile.Parent = Main
+SavedFile.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+SavedFile.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SavedFile.BorderSizePixel = 0
+SavedFile.Position = UDim2.new(0.82579565, 0, 0.136842102, 0)
+SavedFile.Size = UDim2.new(0.160804018, 0, 0.698245585, 0)
+
+UIAspectRatioConstraint_7.Parent = SavedFile
+UIAspectRatioConstraint_7.AspectRatio = 0.482
+
+Execute.Name = "Execute"
+Execute.Parent = Main
+Execute.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+Execute.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Execute.BorderSizePixel = 0
+Execute.Position = UDim2.new(0.0201005023, 0, 0.866666675, 0)
+Execute.Size = UDim2.new(0.122278057, 0, 0.108771928, 0)
+Execute.Font = Enum.Font.SourceSans
+Execute.Text = "Execute"
+Execute.TextColor3 = Color3.fromRGB(255, 255, 255)
+Execute.TextSize = 16.000
+
+UIAspectRatioConstraint_8.Parent = Execute
+UIAspectRatioConstraint_8.AspectRatio = 2.355
+
+Clear.Name = "Clear"
+Clear.Parent = Main
+Clear.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+Clear.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Clear.BorderSizePixel = 0
+Clear.Position = UDim2.new(0.157453939, 0, 0.866666675, 0)
+Clear.Size = UDim2.new(0.122278057, 0, 0.108771928, 0)
+Clear.Font = Enum.Font.SourceSans
+Clear.Text = "Clear"
+Clear.TextColor3 = Color3.fromRGB(255, 255, 255)
+Clear.TextSize = 16.000
+
+UIAspectRatioConstraint_9.Parent = Clear
+UIAspectRatioConstraint_9.AspectRatio = 2.355
+
+OpenFile.Name = "OpenFile"
+OpenFile.Parent = Main
+OpenFile.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+OpenFile.BorderColor3 = Color3.fromRGB(0, 0, 0)
+OpenFile.BorderSizePixel = 0
+OpenFile.Position = UDim2.new(0.294807374, 0, 0.866666675, 0)
+OpenFile.Size = UDim2.new(0.122278057, 0, 0.108771928, 0)
+OpenFile.Font = Enum.Font.SourceSans
+OpenFile.Text = "Open File"
+OpenFile.TextColor3 = Color3.fromRGB(255, 255, 255)
+OpenFile.TextSize = 16.000
+
+UIAspectRatioConstraint_10.Parent = OpenFile
+UIAspectRatioConstraint_10.AspectRatio = 2.355
+
+SaveFile.Name = "SaveFile"
+SaveFile.Parent = Main
+SaveFile.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+SaveFile.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SaveFile.BorderSizePixel = 0
+SaveFile.Position = UDim2.new(0.438860983, 0, 0.866666675, 0)
+SaveFile.Size = UDim2.new(0.122278057, 0, 0.108771928, 0)
+SaveFile.Font = Enum.Font.SourceSans
+SaveFile.Text = "Save File"
+SaveFile.TextColor3 = Color3.fromRGB(255, 255, 255)
+SaveFile.TextSize = 16.000
+
+UIAspectRatioConstraint_11.Parent = SaveFile
+UIAspectRatioConstraint_11.AspectRatio = 2.355
+
+Options.Name = "Options"
+Options.Parent = Main
+Options.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+Options.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Options.BorderSizePixel = 0
+Options.Position = UDim2.new(0.577889442, 0, 0.866666675, 0)
+Options.Size = UDim2.new(0.122278057, 0, 0.108771928, 0)
+Options.Font = Enum.Font.SourceSans
+Options.Text = "Options"
+Options.TextColor3 = Color3.fromRGB(255, 255, 255)
+Options.TextSize = 16.000
+
+UIAspectRatioConstraint_12.Parent = Options
+UIAspectRatioConstraint_12.AspectRatio = 2.355
+
+Attach.Name = "Attach"
+Attach.Parent = Main
+Attach.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+Attach.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Attach.BorderSizePixel = 0
+Attach.Position = UDim2.new(0.716917932, 0, 0.866666675, 0)
+Attach.Size = UDim2.new(0.122278057, 0, 0.108771928, 0)
+Attach.Font = Enum.Font.SourceSans
+Attach.Text = "Attach"
+Attach.TextColor3 = Color3.fromRGB(255, 255, 255)
+Attach.TextSize = 16.000
+
+UIAspectRatioConstraint_13.Parent = Attach
+UIAspectRatioConstraint_13.AspectRatio = 2.355
+
+ScriptHub.Name = "ScriptHub"
+ScriptHub.Parent = Main
+ScriptHub.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+ScriptHub.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScriptHub.BorderSizePixel = 0
+ScriptHub.Position = UDim2.new(0.864321589, 0, 0.866666675, 0)
+ScriptHub.Size = UDim2.new(0.122278057, 0, 0.108771928, 0)
+ScriptHub.Font = Enum.Font.SourceSans
+ScriptHub.Text = "Script Hub"
+ScriptHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptHub.TextSize = 16.000
+
+UIAspectRatioConstraint_14.Parent = ScriptHub
+UIAspectRatioConstraint_14.AspectRatio = 2.355
+
+UIAspectRatioConstraint_15.Parent = Main
+UIAspectRatioConstraint_15.AspectRatio = 2.095
+
+Options_2.Name = "Options"
+Options_2.Parent = SynapseX
+Options_2.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Options_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Options_2.BorderSizePixel = 0
+Options_2.Position = UDim2.new(0.349706531, 0, 0.148386389, 0)
+Options_2.Size = UDim2.new(0.285880983, 0, 0.586419761, 0)
+Options_2.Visible = false
+
+TextLabel.Parent = Options_2
+TextLabel.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Size = UDim2.new(1, 0, 0.101754382, 0)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Synapse X - Options"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 16.000
+
+UIAspectRatioConstraint_16.Parent = TextLabel
+UIAspectRatioConstraint_16.AspectRatio = 8.448
+
+ImageLabel.Parent = Options_2
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(0.0244897958, 0, 0.0105263162, 0)
+ImageLabel.Size = UDim2.new(0.0897959173, 0, 0.0807017535, 0)
+ImageLabel.Image = "rbxassetid://2530517466"
+
+UIAspectRatioConstraint_17.Parent = ImageLabel
+UIAspectRatioConstraint_17.AspectRatio = 0.957
+
+TextButton.Parent = Options_2
+TextButton.BackgroundColor3 = Color3.fromRGB(193, 193, 193)
+TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.310204089, 0, 0.203508765, 0)
+TextButton.Size = UDim2.new(0.0653061196, 0, 0.0491228066, 0)
+TextButton.Font = Enum.Font.Unknown
+TextButton.Text = "x"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+
+UIAspectRatioConstraint_18.Parent = TextButton
+UIAspectRatioConstraint_18.AspectRatio = 1.143
+
+TextLabel_2.Parent = Options_2
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.257142872, 0, 0.19298245, 0)
+TextLabel_2.Size = UDim2.new(0.534693897, 0, 0.0701754391, 0)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Unlock FPS"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 14.000
+
+UIAspectRatioConstraint_19.Parent = TextLabel_2
+UIAspectRatioConstraint_19.AspectRatio = 6.550
+
+TextButton_2.Parent = Options_2
+TextButton_2.BackgroundColor3 = Color3.fromRGB(193, 193, 193)
+TextButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.BorderSizePixel = 0
+TextButton_2.Position = UDim2.new(0.310204089, 0, 0.305263162, 0)
+TextButton_2.Size = UDim2.new(0.0653061196, 0, 0.0491228066, 0)
+TextButton_2.Font = Enum.Font.Unknown
+TextButton_2.Text = "x"
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextScaled = true
+TextButton_2.TextSize = 14.000
+TextButton_2.TextWrapped = true
+
+UIAspectRatioConstraint_20.Parent = TextButton_2
+UIAspectRatioConstraint_20.AspectRatio = 1.143
+
+TextLabel_3.Parent = Options_2
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0.257142872, 0, 0.294736832, 0)
+TextLabel_3.Size = UDim2.new(0.534693897, 0, 0.0701754391, 0)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "Internal UI"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 14.000
+
+UIAspectRatioConstraint_21.Parent = TextLabel_3
+UIAspectRatioConstraint_21.AspectRatio = 6.550
+
+TextLabel_4.Parent = Options_2
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(0.257142872, 0, 0.39649123, 0)
+TextLabel_4.Size = UDim2.new(0.534693897, 0, 0.0701754391, 0)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "Top Most"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 14.000
+
+UIAspectRatioConstraint_22.Parent = TextLabel_4
+UIAspectRatioConstraint_22.AspectRatio = 6.550
+
+TextButton_3.Parent = Options_2
+TextButton_3.BackgroundColor3 = Color3.fromRGB(193, 193, 193)
+TextButton_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.BorderSizePixel = 0
+TextButton_3.Position = UDim2.new(0.310204089, 0, 0.407017529, 0)
+TextButton_3.Size = UDim2.new(0.0653061196, 0, 0.0491228066, 0)
+TextButton_3.Font = Enum.Font.Unknown
+TextButton_3.Text = "x"
+TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.TextScaled = true
+TextButton_3.TextSize = 14.000
+TextButton_3.TextWrapped = true
+
+UIAspectRatioConstraint_23.Parent = TextButton_3
+UIAspectRatioConstraint_23.AspectRatio = 1.143
+
+TextLabel_5.Parent = Options_2
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.BorderSizePixel = 0
+TextLabel_5.Position = UDim2.new(0.257142872, 0, 0.501754403, 0)
+TextLabel_5.Size = UDim2.new(0.534693897, 0, 0.0701754391, 0)
+TextLabel_5.Font = Enum.Font.SourceSans
+TextLabel_5.Text = "Auto-Attach"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextSize = 14.000
+
+UIAspectRatioConstraint_24.Parent = TextLabel_5
+UIAspectRatioConstraint_24.AspectRatio = 6.550
+
+TextButton_4.Parent = Options_2
+TextButton_4.BackgroundColor3 = Color3.fromRGB(193, 193, 193)
+TextButton_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.BorderSizePixel = 0
+TextButton_4.Position = UDim2.new(0.310204089, 0, 0.512280703, 0)
+TextButton_4.Size = UDim2.new(0.0653061196, 0, 0.0491228066, 0)
+TextButton_4.Font = Enum.Font.Unknown
+TextButton_4.Text = "x"
+TextButton_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.TextScaled = true
+TextButton_4.TextSize = 14.000
+TextButton_4.TextWrapped = true
+
+UIAspectRatioConstraint_25.Parent = TextButton_4
+UIAspectRatioConstraint_25.AspectRatio = 1.143
+
+TextLabel_6.Parent = Options_2
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_6.BorderSizePixel = 0
+TextLabel_6.Position = UDim2.new(0.342857152, 0, 0.60350877, 0)
+TextLabel_6.Size = UDim2.new(0.534693897, 0, 0.0701754391, 0)
+TextLabel_6.Font = Enum.Font.SourceSans
+TextLabel_6.Text = "Byfron HWID Change"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextSize = 14.000
+
+UIAspectRatioConstraint_26.Parent = TextLabel_6
+UIAspectRatioConstraint_26.AspectRatio = 6.550
+
+TextButton_5.Parent = Options_2
+TextButton_5.BackgroundColor3 = Color3.fromRGB(193, 193, 193)
+TextButton_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.BorderSizePixel = 0
+TextButton_5.Position = UDim2.new(0.310204089, 0, 0.61403507, 0)
+TextButton_5.Size = UDim2.new(0.0653061196, 0, 0.0491228066, 0)
+TextButton_5.Font = Enum.Font.Unknown
+TextButton_5.Text = "x"
+TextButton_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.TextScaled = true
+TextButton_5.TextSize = 14.000
+TextButton_5.TextWrapped = true
+
+UIAspectRatioConstraint_27.Parent = TextButton_5
+UIAspectRatioConstraint_27.AspectRatio = 1.143
+
+TextLabel_7.Parent = Options_2
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_7.BorderSizePixel = 0
+TextLabel_7.Position = UDim2.new(0.310204089, 0, 0.705263138, 0)
+TextLabel_7.Size = UDim2.new(0.534693897, 0, 0.0701754391, 0)
+TextLabel_7.Font = Enum.Font.SourceSans
+TextLabel_7.Text = "HyperIon Spoof"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextSize = 14.000
+
+UIAspectRatioConstraint_28.Parent = TextLabel_7
+UIAspectRatioConstraint_28.AspectRatio = 6.550
+
+TextButton_6.Parent = Options_2
+TextButton_6.BackgroundColor3 = Color3.fromRGB(193, 193, 193)
+TextButton_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_6.BorderSizePixel = 0
+TextButton_6.Position = UDim2.new(0.310204089, 0, 0.715789497, 0)
+TextButton_6.Size = UDim2.new(0.0653061196, 0, 0.0491228066, 0)
+TextButton_6.Font = Enum.Font.Unknown
+TextButton_6.Text = "x"
+TextButton_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_6.TextScaled = true
+TextButton_6.TextSize = 14.000
+TextButton_6.TextWrapped = true
+
+UIAspectRatioConstraint_29.Parent = TextButton_6
+UIAspectRatioConstraint_29.AspectRatio = 1.143
+
+TextButton_7.Parent = Options_2
+TextButton_7.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+TextButton_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_7.BorderSizePixel = 0
+TextButton_7.Position = UDim2.new(0.0448979586, 0, 0.870175421, 0)
+TextButton_7.Size = UDim2.new(0.910204053, 0, 0.0877192989, 0)
+TextButton_7.Font = Enum.Font.SourceSans
+TextButton_7.Text = "Close"
+TextButton_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_7.TextSize = 16.000
+
+UIAspectRatioConstraint_30.Parent = TextButton_7
+UIAspectRatioConstraint_30.AspectRatio = 8.920
+
+UIAspectRatioConstraint_31.Parent = Options_2
+UIAspectRatioConstraint_31.AspectRatio = 0.860
+
+LoginFrame.Name = "LoginFrame"
+LoginFrame.Parent = SynapseX
+LoginFrame.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+LoginFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+LoginFrame.BorderSizePixel = 0
+LoginFrame.Position = UDim2.new(0.22870478, 0, 0.316872418, 0)
+LoginFrame.Size = UDim2.new(0.541423559, 0, 0.366255134, 0)
+
+Title2.Name = "Title2"
+Title2.Parent = LoginFrame
+Title2.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+Title2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Title2.BorderSizePixel = 0
+Title2.Size = UDim2.new(1, 0, 0.191011235, 0)
+Title2.Font = Enum.Font.SourceSans
+Title2.Text = "Synapse X - Login"
+Title2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title2.TextSize = 16.000
+
+UIAspectRatioConstraint_32.Parent = Title2
+UIAspectRatioConstraint_32.AspectRatio = 13.647
+
+Icon2.Name = "Icon2"
+Icon2.Parent = LoginFrame
+Icon2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Icon2.BackgroundTransparency = 1.000
+Icon2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Icon2.BorderSizePixel = 0
+Icon2.Position = UDim2.new(0.0129310349, 0, 0.0168539323, 0)
+Icon2.Size = UDim2.new(0.056034483, 0, 0.151685387, 0)
+Icon2.Image = "rbxassetid://2530517466"
+
+UIAspectRatioConstraint_33.Parent = Icon2
+UIAspectRatioConstraint_33.AspectRatio = 0.963
+
+UserBox.Name = "UserBox"
+UserBox.Parent = LoginFrame
+UserBox.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+UserBox.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UserBox.BorderSizePixel = 0
+UserBox.Position = UDim2.new(0.217672408, 0, 0.280898869, 0)
+UserBox.Size = UDim2.new(0.754310369, 0, 0.129213482, 0)
+UserBox.Font = Enum.Font.SourceSans
+UserBox.Text = ""
+UserBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+UserBox.TextSize = 16.000
+UserBox.TextWrapped = true
+UserBox.TextXAlignment = Enum.TextXAlignment.Left
+
+UIAspectRatioConstraint_34.Parent = UserBox
+UIAspectRatioConstraint_34.AspectRatio = 15.217
+
+PassBox.Name = "PassBox"
+PassBox.Parent = LoginFrame
+PassBox.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+PassBox.BorderColor3 = Color3.fromRGB(0, 0, 0)
+PassBox.BorderSizePixel = 0
+PassBox.Position = UDim2.new(0.217672408, 0, 0.432584256, 0)
+PassBox.Size = UDim2.new(0.754310369, 0, 0.129213482, 0)
+PassBox.Font = Enum.Font.SourceSans
+PassBox.Text = ""
+PassBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+PassBox.TextSize = 16.000
+PassBox.TextWrapped = true
+PassBox.TextXAlignment = Enum.TextXAlignment.Left
+
+UIAspectRatioConstraint_35.Parent = PassBox
+UIAspectRatioConstraint_35.AspectRatio = 15.217
+
+LABEL.Name = "LABEL"
+LABEL.Parent = LoginFrame
+LABEL.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LABEL.BackgroundTransparency = 1.000
+LABEL.BorderColor3 = Color3.fromRGB(0, 0, 0)
+LABEL.BorderSizePixel = 0
+LABEL.Position = UDim2.new(0.0323275849, 0, 0.280898869, 0)
+LABEL.Size = UDim2.new(0.18534483, 0, 0.129213482, 0)
+LABEL.Font = Enum.Font.SourceSans
+LABEL.Text = "Username:"
+LABEL.TextColor3 = Color3.fromRGB(255, 255, 255)
+LABEL.TextSize = 14.000
+
+UIAspectRatioConstraint_36.Parent = LABEL
+UIAspectRatioConstraint_36.AspectRatio = 3.739
+
+LABEL2.Name = "LABEL2"
+LABEL2.Parent = LoginFrame
+LABEL2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LABEL2.BackgroundTransparency = 1.000
+LABEL2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+LABEL2.BorderSizePixel = 0
+LABEL2.Position = UDim2.new(0.0323275849, 0, 0.432584256, 0)
+LABEL2.Size = UDim2.new(0.18534483, 0, 0.129213482, 0)
+LABEL2.Font = Enum.Font.SourceSans
+LABEL2.Text = "Password:"
+LABEL2.TextColor3 = Color3.fromRGB(255, 255, 255)
+LABEL2.TextSize = 14.000
+
+UIAspectRatioConstraint_37.Parent = LABEL2
+UIAspectRatioConstraint_37.AspectRatio = 3.739
+
+LoginButton.Name = "LoginButton"
+LoginButton.Parent = LoginFrame
+LoginButton.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+LoginButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+LoginButton.BorderSizePixel = 0
+LoginButton.Position = UDim2.new(0.0344827585, 0, 0.814606726, 0)
+LoginButton.Size = UDim2.new(0.931034505, 0, 0.140449435, 0)
+LoginButton.Font = Enum.Font.SourceSans
+LoginButton.Text = "Login"
+LoginButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+LoginButton.TextSize = 15.000
+
+UIAspectRatioConstraint_38.Parent = LoginButton
+UIAspectRatioConstraint_38.AspectRatio = 17.280
+
+Lostpw.Name = "Lostpw"
+Lostpw.Parent = LoginFrame
+Lostpw.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Lostpw.BackgroundTransparency = 1.000
+Lostpw.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Lostpw.BorderSizePixel = 0
+Lostpw.Position = UDim2.new(0.303879321, 0, 0.561797738, 0)
+Lostpw.Size = UDim2.new(0.394396544, 0, 0.129213482, 0)
+Lostpw.Font = Enum.Font.SourceSans
+Lostpw.Text = "Lost your password?"
+Lostpw.TextColor3 = Color3.fromRGB(82, 143, 255)
+Lostpw.TextSize = 14.000
+
+UIAspectRatioConstraint_39.Parent = Lostpw
+UIAspectRatioConstraint_39.AspectRatio = 7.957
+
+REGISTER.Name = "REGISTER"
+REGISTER.Parent = LoginFrame
+REGISTER.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+REGISTER.BackgroundTransparency = 1.000
+REGISTER.BorderColor3 = Color3.fromRGB(0, 0, 0)
+REGISTER.BorderSizePixel = 0
+REGISTER.Position = UDim2.new(0.211206898, 0, 0.685393274, 0)
+REGISTER.Size = UDim2.new(0.577586234, 0, 0.129213482, 0)
+REGISTER.Font = Enum.Font.SourceSans
+REGISTER.Text = "Want to register with your serial key?"
+REGISTER.TextColor3 = Color3.fromRGB(82, 143, 255)
+REGISTER.TextSize = 14.000
+
+UIAspectRatioConstraint_40.Parent = REGISTER
+UIAspectRatioConstraint_40.AspectRatio = 11.652
+
+UIAspectRatioConstraint_41.Parent = LoginFrame
+UIAspectRatioConstraint_41.AspectRatio = 2.607
+
+Close2.Name = "Close2"
+Close2.Parent = LoginFrame
+Close2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close2.BackgroundTransparency = 1.000
+Close2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Close2.BorderSizePixel = 0
+Close2.Position = UDim2.new(0.933189631, 0, 0, 0)
+Close2.Size = UDim2.new(0, 31, 0, 23)
+Close2.Font = Enum.Font.SourceSans
+Close2.Text = "X"
+Close2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close2.TextSize = 16.000
+
+Minimize2.Name = "Minimize2"
+Minimize2.Parent = LoginFrame
+Minimize2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Minimize2.BackgroundTransparency = 1.000
+Minimize2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Minimize2.BorderSizePixel = 0
+Minimize2.Position = UDim2.new(0.866379321, 0, 0, 0)
+Minimize2.Size = UDim2.new(0, 31, 0, 23)
+Minimize2.Font = Enum.Font.SourceSans
+Minimize2.Text = "_"
+Minimize2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Minimize2.TextSize = 16.000
+
+Error.Name = "Error"
+Error.Parent = LoginFrame
+Error.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Error.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Error.BorderSizePixel = 0
+Error.Position = UDim2.new(0.0668103471, 0, 0.0898876414, 0)
+Error.Size = UDim2.new(0, 402, 0, 145)
+Error.Visible = false
+
+TextLabel_8.Parent = Error
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(216, 216, 216)
+TextLabel_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_8.BorderSizePixel = 0
+TextLabel_8.Position = UDim2.new(0.00248756213, 0, 0.731034458, 0)
+TextLabel_8.Size = UDim2.new(0, 401, 0, 39)
+TextLabel_8.Font = Enum.Font.SourceSans
+TextLabel_8.Text = ""
+TextLabel_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_8.TextSize = 14.000
+
+TextLabel_9.Parent = Error
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_9.BorderSizePixel = 0
+TextLabel_9.Position = UDim2.new(0.019900497, 0, 0, 0)
+TextLabel_9.Size = UDim2.new(0, 115, 0, 24)
+TextLabel_9.Font = Enum.Font.SourceSans
+TextLabel_9.Text = "Synapse X"
+TextLabel_9.TextColor3 = Color3.fromRGB(89, 89, 89)
+TextLabel_9.TextScaled = true
+TextLabel_9.TextSize = 14.000
+TextLabel_9.TextWrapped = true
+TextLabel_9.TextXAlignment = Enum.TextXAlignment.Left
+
+ImageLabel_2.Parent = Error
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_2.BackgroundTransparency = 1.000
+ImageLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_2.BorderSizePixel = 0
+ImageLabel_2.Position = UDim2.new(0.0298507456, 0, 0.234482765, 0)
+ImageLabel_2.Size = UDim2.new(0, 58, 0, 59)
+ImageLabel_2.Image = "rbxassetid://5107154082"
+
+TextLabel_10.Parent = Error
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_10.BorderSizePixel = 0
+TextLabel_10.Position = UDim2.new(0.216417909, 0, 0.275862068, 0)
+TextLabel_10.Size = UDim2.new(0, 303, 0, 47)
+TextLabel_10.Font = Enum.Font.SourceSans
+TextLabel_10.Text = "Username or Password was incorrect! Please try again."
+TextLabel_10.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_10.TextScaled = true
+TextLabel_10.TextSize = 14.000
+TextLabel_10.TextWrapped = true
+TextLabel_10.TextXAlignment = Enum.TextXAlignment.Left
+
+TextButton_8.Parent = Error
+TextButton_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_8.BorderSizePixel = 0
+TextButton_8.Position = UDim2.new(0.868159175, 0, 0, 0)
+TextButton_8.Size = UDim2.new(0, 52, 0, 24)
+TextButton_8.Font = Enum.Font.SourceSans
+TextButton_8.Text = "x"
+TextButton_8.TextColor3 = Color3.fromRGB(89, 89, 89)
+TextButton_8.TextScaled = true
+TextButton_8.TextSize = 14.000
+TextButton_8.TextWrapped = true
+
+TextButton_9.Parent = Error
+TextButton_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_9.Position = UDim2.new(0.74626863, 0, 0.779310346, 0)
+TextButton_9.Size = UDim2.new(0, 90, 0, 24)
+TextButton_9.Font = Enum.Font.SourceSans
+TextButton_9.Text = "OK"
+TextButton_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_9.TextScaled = true
+TextButton_9.TextSize = 14.000
+TextButton_9.TextWrapped = true
+
+Toggle.Name = "Toggle"
+Toggle.Parent = SynapseX
+Toggle.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Toggle.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Toggle.BorderSizePixel = 0
+Toggle.Position = UDim2.new(0.473745614, 0, 0.0637860075, 0)
+Toggle.Size = UDim2.new(0.0513418913, 0, 0.0905349776, 0)
+Toggle.Visible = false
+Toggle.Image = "rbxassetid://2530517466"
+
+UICorner.CornerRadius = UDim.new(1, 0)
+UICorner.Parent = Toggle
+
+UIAspectRatioConstraint_42.Parent = Toggle
+
+-- Scripts:
+
+local function TAXROR_fake_script() -- Close.LocalScript 
+	local script = Instance.new('LocalScript', Close)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent:Destroy()
+	end)
+end
+coroutine.wrap(TAXROR_fake_script)()
+local function UOMHAL_fake_script() -- Minimize.LocalScript 
+	local script = Instance.new('LocalScript', Minimize)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.Toggle.Visible = true
+	end)
+end
+coroutine.wrap(UOMHAL_fake_script)()
+local function BIVIM_fake_script() -- Execute.LocalScript 
+	local script = Instance.new('LocalScript', Execute)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent:FindFirstChild("AttachedE") then
+			loadstring(script.Parent.Parent.CodeBox.Text)()
+		else
+			script.Parent.Parent.Title.Text = "Synapse X - v2.1.9 (not injected! press attach)"
+			wait(4.5)
+			script.Parent.Parent.Title.Text = "Synapse X - v2.1.9"
+		end
+	end)
+end
+coroutine.wrap(BIVIM_fake_script)()
+local function UUKSYZ_fake_script() -- Clear.LocalScript 
+	local script = Instance.new('LocalScript', Clear)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.CodeBox.Text = ""
+	end)
+end
+coroutine.wrap(UUKSYZ_fake_script)()
+local function FRMQ_fake_script() -- Options.LocalScript 
+	local script = Instance.new('LocalScript', Options)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Options.Visible = true
+	end)
+end
+coroutine.wrap(FRMQ_fake_script)()
+local function BAPYR_fake_script() -- Attach.LocalScript 
+	local script = Instance.new('LocalScript', Attach)
+
+	local Attached = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if Attached == false then
+			Attached = true
+			local attachedre = Instance.new("BoolValue")
+			attachedre.Name = "AttachedE"
+			attachedre.Parent = script.Parent.Parent.Execute
+			script.Parent.Parent.Title.Text = "Synapse X - v2.1.9 (checking...)"
+			wait(3)
+			script.Parent.Parent.Title.Text = "Synapse X - v2.1.9 (injecting...)"
+			wait(5)
+			script.Parent.Parent.Title.Text = "Synapse X - v2.1.9 (checking whitelist...)"
+			wait(3)
+			script.Parent.Parent.Title.Text = "Synapse X - v2.1.9 (scanning...)"
+			wait(3)
+			script.Parent.Parent.Title.Text = "Synapse X - v2.1.9 (ready!!)"
+			wait(4.5)
+			script.Parent.Parent.Title.Text = "Synapse X - v2.1.9"
+		else
+			script.Parent.Parent.Title.Text = "Synapse X - v2.1.9 (already injected!!)"
+			wait(4)
+			script.Parent.Parent.Title.Text = "Synapse X - v2.1.9"
+		end
+	end)
+end
+coroutine.wrap(BAPYR_fake_script)()
+local function QAOD_fake_script() -- Main.Dragify 
+	local script = Instance.new('LocalScript', Main)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(QAOD_fake_script)()
+local function LRWVEHC_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	local toggled = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if toggled == false then
+			toggled = true
+			script.Parent.Text = "x"
+		elseif toggled == true then
+			toggled = false
+			script.Parent.Text = ""
+		end
+	end)
+end
+coroutine.wrap(LRWVEHC_fake_script)()
+local function BINHCC_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	local toggled = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if toggled == false then
+			toggled = true
+			script.Parent.Text = "x"
+		elseif toggled == true then
+			toggled = false
+			script.Parent.Text = ""
+		end
+	end)
+end
+coroutine.wrap(BINHCC_fake_script)()
+local function QKNXR_fake_script() -- TextButton_3.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_3)
+
+	local toggled = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if toggled == false then
+			toggled = true
+			script.Parent.Text = "x"
+		elseif toggled == true then
+			toggled = false
+			script.Parent.Text = ""
+		end
+	end)
+end
+coroutine.wrap(QKNXR_fake_script)()
+local function PNFWEW_fake_script() -- TextButton_4.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_4)
+
+	local toggled = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if toggled == false then
+			toggled = true
+			script.Parent.Text = "x"
+		elseif toggled == true then
+			toggled = false
+			script.Parent.Text = ""
+		end
+	end)
+end
+coroutine.wrap(PNFWEW_fake_script)()
+local function XFMBTSW_fake_script() -- TextButton_5.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_5)
+
+	local toggled = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if toggled == false then
+			toggled = true
+			script.Parent.Text = "x"
+		elseif toggled == true then
+			toggled = false
+			script.Parent.Text = ""
+		end
+	end)
+end
+coroutine.wrap(XFMBTSW_fake_script)()
+local function UNILFNG_fake_script() -- TextButton_6.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_6)
+
+	local toggled = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if toggled == false then
+			toggled = true
+			script.Parent.Text = "x"
+		elseif toggled == true then
+			toggled = false
+			script.Parent.Text = ""
+		end
+	end)
+end
+coroutine.wrap(UNILFNG_fake_script)()
+local function DLQWC_fake_script() -- TextButton_7.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_7)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+end
+coroutine.wrap(DLQWC_fake_script)()
+local function WULHLJD_fake_script() -- Options_2.Dragify 
+	local script = Instance.new('LocalScript', Options_2)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(WULHLJD_fake_script)()
+local function LTOD_fake_script() -- LoginButton.LocalScript 
+	local script = Instance.new('LocalScript', LoginButton)
+
+	local Username = "Mimi"
+	local Password = "Almighty10"
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Parent.UserBox.Text == Username and script.Parent.Parent.PassBox.Text == Password then
+			script.Parent.Parent.Visible = false
+			script.Parent.Parent.Parent.Main.Visible = true
+		else
+			local sound = Instance.new("Sound")
+			sound.Parent = game.Workspace
+			sound.SoundId = "rbxassetid://9066167010"
+			script.Parent.Parent.Error.Visible = true
+			sound:Play()
+			wait(2)
+			sound:Destroy()
+		end
+	end)
+end
+coroutine.wrap(LTOD_fake_script)()
+local function WJSDVTK_fake_script() -- TextButton_8.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_8)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+end
+coroutine.wrap(WJSDVTK_fake_script)()
+local function BRZQ_fake_script() -- TextButton_9.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_9)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+end
+coroutine.wrap(BRZQ_fake_script)()
+local function ITCTP_fake_script() -- Error.Dragify 
+	local script = Instance.new('LocalScript', Error)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(ITCTP_fake_script)()
+local function CHJLGIF_fake_script() -- LoginFrame.Dragify 
+	local script = Instance.new('LocalScript', LoginFrame)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(CHJLGIF_fake_script)()
+local function LARODN_fake_script() -- Toggle.LocalScript 
+	local script = Instance.new('LocalScript', Toggle)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Main.Visible = true
+		script.Parent.Visible = false
+	end)
+end
+coroutine.wrap(LARODN_fake_script)()
